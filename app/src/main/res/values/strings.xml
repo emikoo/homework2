@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MenuHW</string>
+    <string name="products">Товары</string>
+    <string name="service">Услуги</string>
+    <string name="about_app">О приложении</string>
+    <string name="tv_about_app">Данное приложение разработано\nв качестве домашнего задания для IT-Academy\nпо теме Menu\nосновные возможности: пользование вкладками в разделе меню\n                       просмотр информации о приложении </string>
+    <string name="welcome">Welcome!</string>
+    <string name="sushi">Традиционные\nсуши</string>
+    <string name="ramen">Острый\nwоk рамен</string>
+    <string name="chips">Аджика чипсы</string>
+    <string name="shipping">Бесплатная\n доставка 24/7</string>
+    <string name="phone">Доставка по \n номеру: 312</string>
+    <string name="school">Для школьников \n скидка в 10%</string>
+
+</resources>

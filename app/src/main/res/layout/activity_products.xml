@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlack"
+    tools:context=".ProductsActivity">
+
+    <TextView
+        android:id="@+id/tvProducts"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="@string/products"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        app:layout_constraintBottom_toTopOf="@id/ivSushi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivSushi"
+        app:layout_constraintTop_toBottomOf="@id/tvProducts"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="20dp"
+        android:layout_width="169dp"
+        android:layout_height="187dp"
+        android:src="@drawable/sushi_dragon" />
+
+    <TextView
+        android:id="@+id/tvSushi"
+        app:layout_constraintTop_toBottomOf="@id/tvProducts"
+        app:layout_constraintStart_toEndOf="@id/ivSushi"
+        android:text="@string/sushi"
+        android:textColor="@color/colorSushiText"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivRamen"
+        app:layout_constraintTop_toBottomOf="@id/ivSushi"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="169dp"
+        android:layout_height="187dp"
+        android:src="@drawable/ramen_dragon"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <TextView
+        android:id="@+id/tvRamen"
+        app:layout_constraintTop_toBottomOf="@id/tvSushi"
+        app:layout_constraintStart_toEndOf="@id/ivRamen"
+        android:text="@string/ramen"
+        android:textColor="@color/colorRamenText"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <ImageView
+        android:id="@+id/ivChips"
+        app:layout_constraintTop_toBottomOf="@id/ivRamen"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="169dp"
+        android:layout_height="187dp"
+        android:src="@drawable/neko_demon"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="374dp" />
+
+    <TextView
+        android:id="@+id/tvChips"
+        app:layout_constraintTop_toBottomOf="@id/tvRamen"
+        app:layout_constraintStart_toEndOf="@id/ivChips"
+        android:text="@string/chips"
+        android:textColor="@color/colorChipsText"
+        android:background="colorChipsText"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="120dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
